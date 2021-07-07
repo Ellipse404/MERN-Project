@@ -1,0 +1,506 @@
+.signup {
+  float: left;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('https://thewebconsultancy.co.uk/wp-content/uploads/2019/08/website-design-background-1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+.op {
+  
+  display: block;
+  height: 72%;
+  width: 30%;
+  margin: auto;
+  margin-top: 7%;
+  padding-left: 5.2%;
+  border: rgb(173, 166, 166) inset 0.5px;
+  border-radius: 7px;
+  background-color: #504e4a52;
+}
+.signin {
+    float:center;
+    display: block;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('https://cdn.wallpapersafari.com/67/78/YftjqO.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+.op1 {
+  margin: auto;
+  margin-top: 7%;
+  float: center;
+  display: block;
+  height: 72%;
+  border-radius: 2%;
+  border: 1px solid rgba(119, 118, 103, 0.562);
+  border-style: ridge;
+  width: 7in;
+  opacity: 100%;
+  background-color: #6456603a;
+  padding-left: 1rem;
+}
+
+.signup h1 {
+  font-family: 'Lucida Sans';
+  color:rgb(211, 233, 236);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: relative;
+  margin-right: 3.8rem;
+  margin-top: -20px;
+  margin-bottom: -12px;
+ 
+}
+
+.signin h1 {
+  color:rgb(255, 2, 129);
+  text-shadow: -1px 0 rgb(220, 243, 9), 0 1px black, 1px 0 black, 0 -1px black;
+  position: relative;
+  margin-top: -16px;
+  margin-left: -1rem;
+  margin-bottom: -12px;
+  font-family: 'Lucida Sans';
+   
+}
+
+.signin form {
+  margin-top: -36%;
+}
+
+.signup input {
+  width: 76%;
+  text-align: center;
+  border-color: #d4a114;
+  color: yellow;
+  margin-left: 8px;
+  background-color: #4b49462a;
+  
+}
+.signup ::placeholder {
+  color: rgba(0, 255, 157, 0.568);
+}
+
+.signin ::placeholder {
+  color: #09eee2b0;
+}
+
+.signin input {
+  position: relative;
+  width: 42%;
+  margin-top: 26px;
+  margin-left: 1rem;
+  text-align: center;
+  color: rgb(0, 255, 170);
+  background-color: #80745521;
+
+}
+
+.signin button {
+    margin-bottom: 44px;
+    margin-left: 1.6px;
+    margin-top: 1rem;
+}
+
+.glogin {
+  
+  position: relative;
+  margin-left: 56%;
+  top: 12%;  
+}
+
+.pb-3 button {
+  width: 14rem;
+}
+
+.flogin {
+  position: relative;
+  margin-left: 56%;
+  top:9%;  
+}
+
+.signup a {
+  color: #17d1c8;
+}
+
+.container_signup {
+  color: rgb(100, 245, 3);
+  margin: auto;
+  padding-top: 26%;
+  padding-left: 2%;
+}
+
+.container_signin {
+    margin: auto;
+    padding-top: 16%;
+    color: #08f34e;
+  }
+
+  .container_signin a {
+    color: #03ddfa;
+    font-style: italic;
+  }
+
+.forgetbtn {
+  position: absolute;
+  margin: auto;
+  margin-top: -1%;
+  padding-left: 6%;
+  font-family: 'Times New Roman';
+}
+
+.wrap {
+  position: absolute;
+  margin: auto;
+  margin-top: 4%;
+  padding-left: 16%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    position: absolute;
+    /* margin: auto; */
+    margin-top: -4.6%;
+    margin-left: 9.6%;
+    transform: translate(-50%, -50%);
+  }
+
+.buttons {
+  padding: 0.68em 1.6em;
+  margin-left: 4rem;
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #41459e;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #0cc89f;
+  border-radius: 0.3em;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  }
+  
+.button {
+  padding: 0.68em 1.6em;
+  margin-left: 4rem;
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #2d2f5a;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #920cc8;
+  border-radius: 0.3em;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  }
+
+.buttons:before {
+  content: "";
+  background-color: rgba(213, 247, 233, 0.5);
+  height: 100%;
+  width: 3em;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -4.5em;
+  transform: skewX(-45deg) translateX(0);
+  transition: none;
+  }
+
+.button:before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 3em;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -4.5em;
+  transform: skewX(-45deg) translateX(0);
+  transition: none;
+  }
+
+.buttons:hover {
+  background-color: #17d1c8;
+  color: #812a6e;
+  border-bottom: 4px solid #2d2f5a;
+  }
+
+.button:hover {
+  background-color: #920cc8;
+  color: #f8c0ea;
+  border-bottom: 4px solid #2d2f5a;
+  }
+
+.buttons:hover:before {
+  transform: skewX(-45deg) translateX(13.5em);
+  transition: all 0.5s ease-in-out;
+  }
+  
+.button:hover:before {
+  transform: skewX(-45deg) translateX(13.5em);
+  transition: all 0.5s ease-in-out;
+  }
+
+.bg-primar {
+  background-color: #555e5900;
+  position: absolute;
+  } 
+  
+.nav {
+  width: 100%;
+  /* padding-left: inline-end; */
+  border-bottom: rgba(0, 100, 0, 0) 2px solid;  
+}
+
+.nav-item{
+  /* background-color: #bcfa13; */
+  
+  margin-right: 28px;
+  margin-top: 12px;
+
+}
+
+.nav a {
+  /* color:rgb(218, 204, 15) */
+  height: auto;
+  width: auto;
+  /* padding-right: 12px; */
+  padding-top: 1%;
+  border-radius: 6px;
+}
+
+.nav_format {
+  position: absolute;
+  top: 0%;
+  width: 100%; 
+  }
+
+.app_body {
+  padding-top: 4cm;
+  color: rgb(0, 255, 242);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.teahub.io/photos/full/238-2389828_wallpaper-of-building-city-cityscape-dubai-highway-dubai.jpg");
+  background-size: 100% 100%;
+  }
+
+.admin {
+ padding-top: 2cm;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ background-image: url("https://www.kolpaper.com/wp-content/uploads/2020/09/Best-Lamborghini-Wallpapers.jpg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+.private {
+ padding-top: 2cm;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ background-image: url("https://www.setaswall.com/wp-content/uploads/2017/07/Bench-Background-36-1920x1080.jpg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+.op2 {
+  float: right;
+  display:block;
+  position: absolute;
+  top: 14%;
+  left: 70%;
+  height: 13cm;
+  width: 8.4cm;
+  padding-left: 24px;
+  border-radius: 2%;
+  background-color: rgba(99, 92, 77, 0.404); 
+}
+
+.admin h2 {
+  color: rgb(250, 8, 8);
+}
+
+.private h2 {
+  color: rgb(199, 241, 14);
+}
+
+.admin p {
+  color: rgb(184, 10, 111);
+  font-family: 'Cambria';
+}
+
+.private p {
+  color: rgb(10, 194, 240);
+}
+
+.admin input {
+  position: relative;
+  width: 92%;
+  text-align: center;
+  color: #e409bfe8;
+}
+
+.private input {
+  position: relative;
+  width: 92%;
+  text-align: center;
+  color: #e409bfe8;
+}
+
+.admin button {
+  position: relative;
+  margin-top: 16.4px;
+  margin-left: 5.4rem;
+
+}
+
+.private button {
+  position: relative;
+  margin-top: 16.4px;
+  margin-left: 5.4rem;
+
+}
+
+.forgot {
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ background-image: url("https://wallpapercave.com/wp/wp2508314.jpg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+.op3 {
+  float: center;
+  display:block;
+  margin: auto;
+  margin-top: 12%;
+  height: 50%;
+  width: 30%;
+  border-radius: 2%;
+  background-color: rgba(98, 143, 39, 0);
+}
+
+
+.forgot h2 {
+  font-family: 'Lucida Sans';
+  color:rgb(232, 248, 7);
+  text-shadow: -2px 0 rgba(37, 41, 41, 0.89), 0 1px black, 1px 0 black, 0 -1px black;
+  margin: auto;
+  padding-top: 4%;
+  text-align: center;
+}
+
+.forgot input {
+  width: 82%;
+  color: #e4fc0e;
+  margin: auto;
+  margin-top: 24%;
+  text-align: center;
+  background-color: #2d2f5a2d;
+}
+
+.forgot ::placeholder {
+  color: #e4fc0e;
+  
+}
+
+.forgot button {
+  margin-top: 16%;
+  margin-left: 24%;
+  width:max-content;
+}
+
+.reset {
+  padding-top: 2cm;
+  float: right;
+  display:block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjfIcwtWVFqEPvxG-1P7k9t-Z0ZJkr7QO1mFsElbT-ngak0AFt-cxAJ9f2FBkhDnbmPLE&usqp=CAU");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.op4 {
+  margin: auto;
+  margin-left: 34.8%;
+  position: absolute;
+  height: 64%;
+  width: 30%;
+  border-radius: 2%;
+  background-color: rgba(170, 175, 180, 0.151);
+}
+
+.reset h3 {
+ color: rgb(245, 245, 109);
+ margin: auto;
+ padding-top: 12%;
+ text-align: center;
+ font-family:  BlinkMacSystemFont;
+ font-style: italic;
+ font-size: 1.5rem;
+}
+
+.reset p {
+  font-family: 'Lucida Sans';
+  font-size: 22px;
+  color:rgb(8, 232, 240);
+  text-shadow: -1.6px 0 rgba(36, 206, 228, 0.795), 0 1px black, 1px 0 black, 0 -1px black;
+  margin: auto; 
+  
+}
+
+.reset input {
+  position: relative;
+  width: 4in;
+  color: darkgoldenrod;
+  text-align: center;
+  margin:auto;
+  margin-top: 22%;
+}
+
+.reset button {
+  position: relative;
+  margin-left: 35%;
+  margin-top: 12%;
+  width:max-content;
+}
+
+.activate {
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  background-image: url("https://cdn.wallpapersafari.com/93/33/sQjPTb.jpg");
+}
+
+.activate h1 {
+color: #a9ff09;
+text-shadow: -1.6px 0 rgba(36, 206, 228, 0.795), 0 1px black, 1px 0 black, 0 -1px black;
+margin-top: 16%;
+font-family:cursive;
+margin-left: -10rem;
+}
+
+.activate button {
+  margin-top: 1cm;
+  margin-left: -12rem;
+}
